@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ABK Clinic — медицинский центр на Мангилик Ел, 36 в Астане</title>
+<meta name="description" content="УЗИ, анализы и гастроцентр: ФГДС и колоноскопия под седацией. 16 направлений для взрослых и детей. Запись в WhatsApp: +7 776 533 96 26.">
+<!-- Демо-версия: закрыта от поисковиков. Перед запуском на домене клиники удалите эту строку и robots.txt -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#2B6E70">
+<link rel="icon" id="favicon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%235CADAE'/%3E%3Ccircle cx='16' cy='16' r='9.5' fill='none' stroke='%23fff' stroke-opacity='.45' stroke-width='1.5'/%3E%3Ccircle cx='22' cy='9.5' r='3' fill='%23DDC27F'/%3E%3C/svg%3E">
+<link rel="alternate" hreflang="ru" href="?lang=ru">
+<link rel="alternate" hreflang="kk" href="?lang=kk">
+<link rel="alternate" hreflang="en" href="?lang=en">
+<link rel="stylesheet" href="assets/css/fonts.css" id="fonts-css">
+<script>
+  /* Если страницу открыли прямо с диска (file://), браузер не подключает файлы шрифтов.
+     Тогда берём fonts-embedded.css — там те же шрифты встроены в CSS. На хостинге работают обычные файлы. */
+  (function () {
+    if (location.protocol === "file:") {
+      document.getElementById("fonts-css").href = "assets/css/fonts-embedded.css";
+      return;
+    }
+    ["onest-cyrillic-400-normal", "lora-cyrillic-600-normal"].forEach(function (f) {
+      var l = document.createElement("link");
+      l.rel = "preload"; l.as = "font"; l.type = "font/woff2"; l.crossOrigin = "anonymous";
+      l.href = "assets/fonts/" + f + ".woff2";
+      document.head.appendChild(l);
+    });
+  })();
+</script>
+<link rel="stylesheet" href="assets/css/site.css">
+<script>
+  /* Заставка с логотипом — один раз за посещение; при «уменьшить движение» не показывается */
+  try { if (sessionStorage.getItem("abk-intro") || matchMedia("(prefers-reduced-motion: reduce)").matches) document.documentElement.classList.add("no-intro"); } catch (e) {}
+</script>
+</head>
+<body>
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-logo">
+    <svg class="intro-ring" viewBox="0 0 200 200"><circle cx="100" cy="100" r="96"/></svg>
+    <img class="intro-mark" src="assets/img/logo-mark.png" alt="">
+  </div>
+  <img class="intro-name" src="assets/img/logo-name.png" alt="">
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><symbol id="menu" viewBox="0 0 24 24"><path d="M4 5h16" /> <path d="M4 12h16" /> <path d="M4 19h16" /></symbol><symbol id="x" viewBox="0 0 24 24"><path d="M18 6 6 18" /> <path d="m6 6 12 12" /></symbol><symbol id="star" viewBox="0 0 24 24"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></symbol><symbol id="message-circle" viewBox="0 0 24 24"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /></symbol><symbol id="phone" viewBox="0 0 24 24"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" /></symbol><symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /> <path d="M12 6v6l4 2" /></symbol><symbol id="baby" viewBox="0 0 24 24"><path d="M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5" /> <path d="M15 12h.01" /> <path d="M19.38 6.813A9 9 0 0 1 20.8 10.2a2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1" /> <path d="M9 12h.01" /></symbol><symbol id="chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" /></symbol><symbol id="chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6" /></symbol><symbol id="chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6" /></symbol><symbol id="search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34" /> <circle cx="11" cy="11" r="8" /></symbol><symbol id="camera" viewBox="0 0 24 24"><path d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z" /> <circle cx="12" cy="13" r="3" /></symbol><symbol id="map-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" /> <circle cx="12" cy="10" r="3" /></symbol><symbol id="credit-card" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" rx="2" /> <line x1="2" x2="22" y1="10" y2="10" /> <path d="M6 14h2" /></symbol><symbol id="mail" viewBox="0 0 24 24"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" /> <rect x="2" y="4" width="20" height="16" rx="2" /></symbol><symbol id="navigation" viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11" /></symbol><symbol id="calendar-check" viewBox="0 0 24 24"><path d="M8 2v3" /> <path d="M16 2v3" /> <rect x="3" y="3" width="18" height="18" rx="2" /> <path d="M3 9h18" /> <path d="m9 15 2 2 4-4" /></symbol><symbol id="receipt" viewBox="0 0 24 24"><path d="M12 17V7" /> <path d="M16 8h-6a2 2 0 0 0 0 4h4a2 2 0 0 1 0 4H8" /> <path d="M4 3a1 1 0 0 1 1-1 1.3 1.3 0 0 1 .7.2l.933.6a1.3 1.3 0 0 0 1.4 0l.934-.6a1.3 1.3 0 0 1 1.4 0l.933.6a1.3 1.3 0 0 0 1.4 0l.933-.6a1.3 1.3 0 0 1 1.4 0l.934.6a1.3 1.3 0 0 0 1.4 0l.933-.6A1.3 1.3 0 0 1 19 2a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1 1.3 1.3 0 0 1-.7-.2l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.934.6a1.3 1.3 0 0 1-1.4 0l-.933-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-1.4 0l-.934-.6a1.3 1.3 0 0 0-1.4 0l-.933.6a1.3 1.3 0 0 1-.7.2 1 1 0 0 1-1-1z" /></symbol><symbol id="clipboard-check" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1" /> <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" /> <path d="m9 14 2 2 4-4" /></symbol><symbol id="users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /> <path d="M16 3.128a4 4 0 0 1 0 7.744" /> <path d="M22 21v-2a4 4 0 0 0-3-3.87" /> <circle cx="9" cy="7" r="4" /></symbol><symbol id="activity" viewBox="0 0 24 24"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2" /></symbol><symbol id="heart" viewBox="0 0 24 24"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" /></symbol><symbol id="bean" viewBox="0 0 24 24"><path d="M10.165 6.598C9.954 7.478 9.64 8.36 9 9c-.64.64-1.521.954-2.402 1.165A6 6 0 0 0 8 22c7.732 0 14-6.268 14-14a6 6 0 0 0-11.835-1.402Z" /> <path d="M5.341 10.62a4 4 0 1 0 5.279-5.28" /></symbol><symbol id="stethoscope" viewBox="0 0 24 24"><path d="M11 2v2" /> <path d="M5 2v2" /> <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1" /> <path d="M8 15a6 6 0 0 0 12 0v-3" /> <circle cx="20" cy="10" r="2" /></symbol><symbol id="ear" viewBox="0 0 24 24"><path d="M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0" /> <path d="M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4" /></symbol><symbol id="venus" viewBox="0 0 24 24"><path d="M12 15v7" /> <path d="M9 19h6" /> <circle cx="12" cy="9" r="6" /></symbol><symbol id="brain" viewBox="0 0 24 24"><path d="M12 18V5" /> <path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4" /> <path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5" /> <path d="M17.997 5.125a4 4 0 0 1 2.526 5.77" /> <path d="M18 18a4 4 0 0 0 2-7.464" /> <path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517" /> <path d="M6 18a4 4 0 0 1-2-7.464" /> <path d="M6.003 5.125a4 4 0 0 0-2.526 5.77" /></symbol><symbol id="mars" viewBox="0 0 24 24"><path d="M16 3h5v5" /> <path d="m21 3-6.75 6.75" /> <circle cx="10" cy="14" r="6" /></symbol><symbol id="droplet" viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z" /></symbol><symbol id="heart-pulse" viewBox="0 0 24 24"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" /> <path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" /></symbol><symbol id="scan-face" viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2" /> <path d="M17 3h2a2 2 0 0 1 2 2v2" /> <path d="M21 17v2a2 2 0 0 1-2 2h-2" /> <path d="M7 21H5a2 2 0 0 1-2-2v-2" /> <path d="M8 14s1.5 2 4 2 4-2 4-2" /> <path d="M9 9h.01" /> <path d="M15 9h.01" /></symbol><symbol id="ribbon" viewBox="0 0 24 24"><path d="M12 11.22C11 9.997 10 9 10 8a2 2 0 0 1 4 0c0 1-.998 2.002-2.01 3.22" /> <path d="m12 18 2.57-3.5" /> <path d="M6.243 9.016a7 7 0 0 1 11.507-.009" /> <path d="M9.35 14.53 12 11.22" /> <path d="M9.35 14.53C7.728 12.246 6 10.221 6 7a6 5 0 0 1 12 0c-.005 3.22-1.778 5.235-3.43 7.5l3.557 4.527a1 1 0 0 1-.203 1.43l-1.894 1.36a1 1 0 0 1-1.384-.215L12 18l-2.679 3.593a1 1 0 0 1-1.39.213l-1.865-1.353a1 1 0 0 1-.203-1.422z" /></symbol><symbol id="shield-plus" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="M9 12h6" /> <path d="M12 9v6" /></symbol><symbol id="message-circle-heart" viewBox="0 0 24 24"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719" /> <path d="M7.828 13.07A3 3 0 0 1 12 8.764a3 3 0 0 1 5.004 2.224 3 3 0 0 1-.832 2.083l-3.447 3.62a1 1 0 0 1-1.45-.001z" /></symbol><symbol id="sparkles" viewBox="0 0 24 24"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" /> <path d="M20 2v4" /> <path d="M22 4h-4" /> <circle cx="4" cy="20" r="2" /></symbol><symbol id="syringe" viewBox="0 0 24 24"><path d="m18 2 4 4" /> <path d="m17 7 3-3" /> <path d="M19 9 8.7 19.3c-1 1-2.5 1-3.4 0l-.6-.6c-1-1-1-2.5 0-3.4L15 5" /> <path d="m9 11 4 4" /> <path d="m5 19-3 3" /> <path d="m14 4 6 6" /></symbol><symbol id="hand-heart" viewBox="0 0 24 24"><path d="M11 14h2a2 2 0 0 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 16" /> <path d="m14.45 13.39 5.05-4.694C20.196 8 21 6.85 21 5.75a2.75 2.75 0 0 0-4.797-1.837.276.276 0 0 1-.406 0A2.75 2.75 0 0 0 11 5.75c0 1.2.802 2.248 1.5 2.946L16 11.95" /> <path d="m2 15 6 6" /> <path d="m7 20 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a1 1 0 0 0-2.75-2.91" /></symbol><symbol id="test-tube-diagonal" viewBox="0 0 24 24"><path d="M21 7 6.82 21.18a2.83 2.83 0 0 1-3.99-.01a2.83 2.83 0 0 1 0-4L17 3" /> <path d="m16 2 6 6" /> <path d="M12 16H4" /></symbol><symbol id="i-ultrasound" viewBox="0 0 24 24"><rect x="9.5" y="2" width="5" height="4" rx="1.2"/><path d="M12 6 5 17a13 13 0 0 0 14 0Z"/><path d="M8.6 12.6a8 8 0 0 0 6.8 0"/></symbol><symbol id="i-endoscope" viewBox="0 0 24 24"><rect x="2.5" y="2" width="5" height="5.5" rx="1.5"/><path d="M5 7.5V10a3 3 0 0 0 3 3h8.5a3 3 0 0 1 3 3v1.5"/><circle cx="19.5" cy="20" r="2"/></symbol><symbol id="i-stomach" viewBox="0 0 24 24"><path d="M9 2.5v3.2c0 1.3-.8 2.3-2 3.1C4.6 10.3 3.6 12.6 4.2 15.3c.8 3.5 4.3 6 8.2 5.7 3.8-.3 6.6-2.9 7-6.1.3-2.6-1-4.7-3.4-5.2-1.7-.3-2.8.5-3.5 1.6-.6 1-1.7 1.3-2.6.5"/><path d="M19.4 15.5 21.5 17"/></symbol></svg>
+
+<a class="skip" href="#booking" data-open-booking data-i18n="skip">Перейти к записи</a>
+
+<div class="demo-ribbon" role="note"><span data-i18n="demo">Демо-концепт для ABK Clinic, не официальный сайт</span></div>
+
+<header class="site-header" id="header">
+  <div class="wrap header-row">
+    <a class="brand" href="#top" aria-label="ABK Clinic">
+      <span class="brand-logo" data-logo hidden></span>
+      <span class="brand-text">
+        <span class="brand-name">ABK Clinic</span>
+        <span class="brand-tag" data-i18n="brand.tag">медицинский центр</span>
+      </span>
+    </a>
+    <nav class="main-nav" data-i18n-aria="nav.label" aria-label="Разделы сайта">
+      <a href="#directions" data-i18n="nav.directions">Направления</a>
+      <a href="#gastro" data-i18n="nav.gastro">Гастроцентр</a>
+      <a href="#prices" data-i18n="nav.prices">Цены</a>
+      <a href="#checkup" data-i18n="nav.checkup">Чек-ап</a>
+      <a href="#contacts" data-i18n="nav.contacts">Контакты</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang" role="group" data-i18n-aria="lang.label" aria-label="Язык сайта">
+        <button type="button" data-lang="ru" aria-pressed="true">Рус</button>
+        <button type="button" data-lang="kk" aria-pressed="false">Қаз</button>
+        <button type="button" data-lang="en" aria-pressed="false">Eng</button>
+      </div>
+      <a class="header-phone" href="tel:+77765339626" data-goal="click_phone">+7 776 533 96 26</a>
+      <a class="btn btn-solid header-cta" href="#booking" data-open-booking data-goal="cta_header" data-i18n="cta.book">Записаться</a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Меню">
+        <svg class="ic" aria-hidden="true"><use href="#menu"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Меню на телефоне: компактная карточка под шапкой, а не на весь экран -->
+  <div class="menu-pop" id="site-menu" hidden>
+    <nav class="menu-nav" data-i18n-aria="nav.label" aria-label="Разделы сайта">
+      <a href="#directions"><svg class="ic" aria-hidden="true"><use href="#stethoscope"/></svg><span data-i18n="nav.directions">Направления</span></a>
+      <a href="#gastro"><svg class="ic" aria-hidden="true"><use href="#i-endoscope"/></svg><span data-i18n="nav.gastro">Гастроцентр</span></a>
+      <a href="#prices"><svg class="ic" aria-hidden="true"><use href="#receipt"/></svg><span data-i18n="nav.prices">Цены</span></a>
+      <a href="#checkup"><svg class="ic" aria-hidden="true"><use href="#clipboard-check"/></svg><span data-i18n="nav.checkup">Чек-ап</span></a>
+      <a href="#team"><svg class="ic" aria-hidden="true"><use href="#users"/></svg><span data-i18n="nav.team">Врачи</span></a>
+      <a href="#contacts"><svg class="ic" aria-hidden="true"><use href="#map-pin"/></svg><span data-i18n="nav.contacts">Контакты</span></a>
+    </nav>
+    <div class="menu-foot">
+      <a class="menu-phone" href="tel:+77765339626" data-goal="click_phone"><svg class="ic" aria-hidden="true"><use href="#phone"/></svg>+7 776 533 96 26</a>
+      <a class="btn btn-book btn-wide" href="#booking" data-open-booking data-goal="cta_menu" data-i18n="cta.book">Записаться</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <!-- Первый экран: обещание, доказательство, запись -->
+  <section class="hero">
+    <svg class="lens" viewBox="0 0 600 600" aria-hidden="true">
+      <circle class="lens-disc" cx="300" cy="300" r="300"/>
+      <circle class="lens-ring r1" cx="300" cy="300" r="250"/>
+      <circle class="lens-ring r2" cx="300" cy="300" r="190"/>
+      <circle class="lens-ring r3" cx="300" cy="300" r="130"/>
+      <path class="lens-fan" d="M300 60 L150 330 A300 300 0 0 0 450 330 Z"/>
+      <circle class="lens-light" cx="430" cy="150" r="22"/>
+    </svg>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1 data-i18n="hero.title">УЗИ, анализы и гастроцентр в одной клинике</h1>
+        <a class="proof" href="https://2gis.kz/astana/firm/70000001082987260/tab/reviews" target="_blank" rel="noopener" data-goal="open_reviews">
+          <span class="proof-score" data-i18n="hero.score">4,9</span>
+          <span class="proof-text">
+            <span class="stars" aria-hidden="true"><svg class="ic"><use href="#star"/></svg><svg class="ic"><use href="#star"/></svg><svg class="ic"><use href="#star"/></svg><svg class="ic"><use href="#star"/></svg><svg class="ic"><use href="#star"/></svg></span>
+            <span><b data-i18n="hero.ratingWhere">в 2ГИС</b> · <span data-i18n="hero.ratingCount">2 355 оценок пациентов</span></span>
+          </span>
+        </a>
+        <ul class="hero-points">
+          <li><svg class="ic" aria-hidden="true"><use href="#i-endoscope"/></svg><span data-i18n="hero.p1">ФГДС и колоноскопия во сне</span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#stethoscope"/></svg><span data-i18n="hero.p2">Врачи 16 направлений</span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#baby"/></svg><span data-i18n="hero.p3">Взрослым и детям</span></li>
+          <li><svg class="ic" aria-hidden="true"><use href="#clock"/></svg><span data-i18n="hero.p4">Приём 8:00–20:00</span></li>
+        </ul>
+        <div class="hero-place">
+          <p class="hero-address"><svg class="ic" aria-hidden="true"><use href="#map-pin"/></svg><span data-i18n="hero.address">Мангилик Ел, 36 · у Триумфальной арки</span></p>
+          <a class="route-link" href="https://go.2gis.com/wi74q6" target="_blank" rel="noopener" data-goal="open_route">
+            <svg class="ic" aria-hidden="true"><use href="#navigation"/></svg><span data-i18n="contacts.route">Построить маршрут в 2ГИС</span>
+          </a>
+        </div>
+        <div class="hero-actions" id="hero-actions">
+          <a class="btn btn-book only-mobile" href="#booking" data-open-booking data-goal="cta_hero">
+            <svg class="ic" aria-hidden="true"><use href="#calendar-check"/></svg><span data-i18n="cta.book">Записаться</span>
+          </a>
+          <a class="btn btn-solid wa-link only-desktop" href="https://wa.me/77765339626" target="_blank" rel="noopener" data-goal="click_whatsapp">
+            <svg class="ic" aria-hidden="true"><use href="#message-circle"/></svg><span data-i18n="cta.bookWa">Записаться в WhatsApp</span>
+          </a>
+          <a class="btn btn-line" href="tel:+77765339626" data-goal="click_phone">
+            <svg class="ic" aria-hidden="true"><use href="#phone"/></svg><span data-i18n="cta.call">Позвонить</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Запись: на компьютере форма стоит рядом с первым экраном, на телефоне выезжает снизу по кнопке «Записаться» -->
+      <dialog class="booking-layer" id="booking-dialog" open aria-labelledby="booking-title">
+        <form class="booking" id="booking" novalidate>
+          <div class="booking-head">
+            <span class="grabber" aria-hidden="true"></span>
+            <h2 class="booking-title" id="booking-title" data-i18n="booking.title">Запись за минуту</h2>
+            <button type="button" class="sheet-close" data-close-booking data-i18n-aria="booking.close" aria-label="Закрыть">
+              <svg class="ic" aria-hidden="true"><use href="#x"/></svg>
+            </button>
+          </div>
+          <p class="booking-lead" data-i18n="booking.lead">Откроется WhatsApp с готовым сообщением — администратор подтвердит время.</p>
+
+          <div class="field">
+            <label for="f-service" data-i18n="booking.service">Что нужно</label>
+            <div class="select-wrap">
+              <select id="f-service" name="service" required></select>
+              <svg class="ic" aria-hidden="true"><use href="#chevron-down"/></svg>
+            </div>
+            <p class="err" id="e-service" hidden></p>
+          </div>
+
+          <fieldset class="field when">
+            <legend data-i18n="booking.when">Когда удобно</legend>
+            <div class="when-seg">
+              <label><input type="radio" name="when" value="today" checked><span data-i18n="booking.today">Сегодня</span></label>
+              <label><input type="radio" name="when" value="tomorrow"><span data-i18n="booking.tomorrow">Завтра</span></label>
+              <label><input type="radio" name="when" value="later"><span data-i18n="booking.later">Другой день</span></label>
+            </div>
+          </fieldset>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="f-name" data-i18n="booking.name">Ваше имя</label>
+              <input id="f-name" name="name" type="text" autocomplete="given-name" required>
+              <p class="err" id="e-name" hidden></p>
+            </div>
+            <div class="field">
+              <label for="f-phone" data-i18n="booking.phone">Телефон</label>
+              <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+7 (___) ___-__-__" required>
+              <p class="err" id="e-phone" hidden></p>
+            </div>
+          </div>
+
+          <div class="consent">
+            <label><input id="f-consent" type="checkbox" name="consent" checked> <span data-i18n="booking.consent">Согласен(на) на обработку персональных данных</span></label>
+            <button type="button" class="link-btn" data-open="privacy" data-i18n="booking.privacy">Политика конфиденциальности</button>
+            <p class="err" id="e-consent" hidden></p>
+          </div>
+
+          <button class="btn btn-book btn-wide booking-submit" type="submit">
+            <svg class="ic" aria-hidden="true"><use href="#message-circle"/></svg><span data-i18n="booking.submit">Отправить в WhatsApp</span>
+          </button>
+          <p class="booking-note" data-i18n="booking.note">Сайт не хранит данные: сообщение уходит прямо администратору клиники.</p>
+        </form>
+      </dialog>
+    </div>
+  </section>
+
+  <!-- 16 направлений: на телефоне листаются в сторону, нажатие сразу открывает запись -->
+  <section class="section directions" id="directions" aria-labelledby="directions-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="directions-title" data-i18n="directions.title">16 направлений</h2>
+        <p data-i18n="directions.lead">Выберите направление — запишем к нужному врачу.</p>
+      </div>
+      <ul class="dir-grid rail" id="dir-grid"></ul>
+      <div class="rail-ui" data-for="dir-grid">
+        <div class="rail-bar" aria-hidden="true"><span></span></div>
+        <button type="button" class="rail-btn" data-dir="-1" data-i18n-aria="rail.prev" aria-label="Назад"><svg class="ic" aria-hidden="true"><use href="#chevron-left"/></svg></button>
+        <button type="button" class="rail-btn" data-dir="1" data-i18n-aria="rail.next" aria-label="Дальше"><svg class="ic" aria-hidden="true"><use href="#chevron-right"/></svg></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Гастроцентр: главный продукт клиники -->
+  <section class="section gastro" id="gastro" aria-labelledby="gastro-title">
+    <div class="wrap gastro-grid">
+      <div class="gastro-copy">
+        <h2 id="gastro-title" data-i18n="gastro.title">Гастроцентр: ФГДС и колоноскопия во сне</h2>
+        <p class="gastro-lead" data-i18n="gastro.lead">Исследование проходит под седацией: вы засыпаете на время процедуры и не чувствуете дискомфорта. Принимаем взрослых и детей.</p>
+        <ol class="steps rail" id="steps" tabindex="0" data-i18n-aria="gastro.stepsLabel" aria-label="Как проходит исследование">
+          <li><h3 data-i18n="gastro.s1t">Запишитесь</h3><p data-i18n="gastro.s1d">В WhatsApp или по телефону — выберите удобный день.</p></li>
+          <li><h3 data-i18n="gastro.s2t">Подготовьтесь по памятке</h3><p data-i18n="gastro.s2d">Администратор пришлёт памятку по подготовке вместе с подтверждением записи.</p></li>
+          <li><h3 data-i18n="gastro.s3t">Процедура во сне</h3><p data-i18n="gastro.s3d">Эндоскопист проводит исследование, пока вы спите под седацией.</p></li>
+          <li><h3 data-i18n="gastro.s4t">Результат и план лечения</h3><p data-i18n="gastro.s4d">Врач расскажет о результатах и при необходимости направит к гастроэнтерологу.</p></li>
+        </ol>
+        <div class="rail-ui" data-for="steps">
+          <div class="rail-bar" aria-hidden="true"><span></span></div>
+          <button type="button" class="rail-btn" data-dir="-1" data-i18n-aria="rail.prev" aria-label="Назад"><svg class="ic" aria-hidden="true"><use href="#chevron-left"/></svg></button>
+          <button type="button" class="rail-btn" data-dir="1" data-i18n-aria="rail.next" aria-label="Дальше"><svg class="ic" aria-hidden="true"><use href="#chevron-right"/></svg></button>
+        </div>
+      </div>
+      <aside class="gastro-ticket" data-i18n-aria="gastro.priceAria" aria-label="Стоимость">
+        <div class="ticket-row">
+          <span data-i18n="gastro.priceLabel">Эндоскопия</span>
+          <strong data-price="20000" data-from="1">от 20 000 ₸</strong>
+        </div>
+        <div class="ticket-row">
+          <span data-i18n="gastro.price2Label">Консультация гастроэнтеролога</span>
+          <strong data-price="15000" data-from="1">от 15 000 ₸</strong>
+        </div>
+        <button class="btn btn-book btn-wide" type="button" data-book="endo" data-goal="cta_gastro">
+          <span data-i18n="gastro.cta">Записаться в гастроцентр</span>
+        </button>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Прейскурант: на телефоне разделы переключаются вкладками или свайпом -->
+  <section class="section prices" id="prices" aria-labelledby="prices-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="prices-title" data-i18n="prices.title">Цены на приём и диагностику</h2>
+        <p data-i18n="prices.lead">Цены «от» по прайсу клиники. Точную стоимость администратор назовёт при записи.</p>
+      </div>
+      <div class="price-tools">
+        <label class="search">
+          <svg class="ic" aria-hidden="true"><use href="#search"/></svg>
+          <input id="price-search" type="search" data-i18n-placeholder="prices.search" placeholder="Врач или услуга" aria-label="Врач или услуга">
+        </label>
+        <button type="button" class="kids-toggle" id="kids-toggle" aria-pressed="false">
+          <svg class="ic" aria-hidden="true"><use href="#baby"/></svg><span data-i18n="prices.kids">Детям</span>
+        </button>
+      </div>
+      <div class="ptabs" id="price-tabs" role="group" data-i18n-aria="prices.tabsLabel" aria-label="Разделы прайса"></div>
+      <div class="ppager" id="price-list"></div>
+      <p class="price-empty" id="price-empty" hidden data-i18n="prices.empty">Ничего не нашли. Напишите нам в WhatsApp — подскажем, к какому врачу записаться.</p>
+      <p class="fine" data-i18n="prices.source">Цены из прайса клиники в 2ГИС, октябрь 2026.</p>
+    </div>
+  </section>
+
+  <!-- Чек-ап: подбор за 2 вопроса, программы листаются в сторону -->
+  <section class="section checkup" id="checkup" aria-labelledby="checkup-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="checkup-title" data-i18n="checkup.title">Программы обследования</h2>
+        <p data-i18n="checkup.lead">16 готовых комплексов обследования по фиксированной цене.</p>
+      </div>
+      <div class="checkup-grid">
+        <div class="quiz" id="quiz">
+          <h3 data-i18n="checkup.quizTitle">Подберите программу за 2 вопроса</h3>
+          <fieldset>
+            <legend data-i18n="checkup.q1">Для кого обследование?</legend>
+            <div class="who-grid" id="q-who"></div>
+          </fieldset>
+          <fieldset>
+            <legend data-i18n="checkup.q2">Что важнее проверить?</legend>
+            <div class="focus-grid" id="q-focus"></div>
+          </fieldset>
+          <div class="quiz-foot">
+            <p class="quiz-result" id="quiz-result" aria-live="polite"></p>
+            <button type="button" class="link-btn" id="quiz-reset" hidden data-i18n="checkup.reset">Сбросить подбор</button>
+          </div>
+          <p class="fine" data-i18n="checkup.disclaimer">Подбор помогает сориентироваться и не заменяет консультацию врача.</p>
+        </div>
+        <div class="slips-wrap">
+          <ul class="slips rail" id="slips"></ul>
+          <div class="rail-ui" data-for="slips">
+            <div class="rail-bar" aria-hidden="true"><span></span></div>
+            <button type="button" class="rail-btn" data-dir="-1" data-i18n-aria="rail.prev" aria-label="Назад"><svg class="ic" aria-hidden="true"><use href="#chevron-left"/></svg></button>
+            <button type="button" class="rail-btn" data-dir="1" data-i18n-aria="rail.next" aria-label="Дальше"><svg class="ic" aria-hidden="true"><use href="#chevron-right"/></svg></button>
+          </div>
+          <p class="fine slips-note" data-i18n="checkup.composition">Что входит в программу — расскажет администратор.</p>
+          <button type="button" class="btn btn-line btn-more only-desktop" id="slips-more" aria-expanded="false" data-i18n="checkup.more">Показать все программы</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Кто о вас позаботится: врачи и команда клиники -->
+  <section class="section team" id="team" aria-labelledby="team-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="team-title" data-i18n="team.title">Кто о вас позаботится</h2>
+        <p data-i18n="team.lead">Многопрофильный медицинский центр в Астане: свой гастроцентр, лаборатория и врачи 16 направлений для взрослых и детей.</p>
+      </div>
+      <ul class="team-grid rail" id="team-grid"></ul>
+      <div class="rail-ui" data-for="team-grid">
+        <div class="rail-bar" aria-hidden="true"><span></span></div>
+        <button type="button" class="rail-btn" data-dir="-1" data-i18n-aria="rail.prev" aria-label="Назад"><svg class="ic" aria-hidden="true"><use href="#chevron-left"/></svg></button>
+        <button type="button" class="rail-btn" data-dir="1" data-i18n-aria="rail.next" aria-label="Дальше"><svg class="ic" aria-hidden="true"><use href="#chevron-right"/></svg></button>
+      </div>
+      <p class="fine team-note" id="team-note" data-i18n="team.note">Здесь появятся фото, имена и стаж врачей — после согласования с клиникой.</p>
+    </div>
+  </section>
+
+  <!-- Доверие: четыре коротких блока -->
+  <section class="section trust" aria-labelledby="trust-title">
+    <div class="wrap">
+      <h2 id="trust-title" data-i18n="trust.title">Пациенты рекомендуют ABK Clinic</h2>
+      <ul class="trust-grid">
+        <li class="tcard">
+          <span class="tcard-icon is-star"><svg class="ic" aria-hidden="true"><use href="#star"/></svg></span>
+          <h3 data-i18n="trust.rating">4,9 из 5</h3>
+          <p data-i18n="trust.ratingDetail">2 355 оценок и 2 060 отзывов в 2ГИС</p>
+          <a href="https://2gis.kz/astana/firm/70000001082987260/tab/reviews" target="_blank" rel="noopener" data-goal="open_reviews" data-i18n="trust.ratingLink">Читать отзывы</a>
+        </li>
+        <li class="tcard">
+          <span class="tcard-icon"><svg class="ic" aria-hidden="true"><use href="#camera"/></svg></span>
+          <h3 data-i18n="trust.insta">8,5 тыс.</h3>
+          <p data-i18n="trust.instaDetail">подписчиков в Instagram</p>
+          <a href="https://www.instagram.com/abkclinic/" target="_blank" rel="noopener" data-goal="open_instagram" data-i18n="trust.instaLink">Открыть Instagram</a>
+        </li>
+        <li class="tcard">
+          <span class="tcard-icon"><svg class="ic" aria-hidden="true"><use href="#map-pin"/></svg></span>
+          <h3 data-i18n="trust.address">Новый адрес</h3>
+          <p data-i18n="trust.addressDetail">С 1 сентября — Мангилик Ел, 36</p>
+        </li>
+        <li class="tcard">
+          <span class="tcard-icon"><svg class="ic" aria-hidden="true"><use href="#credit-card"/></svg></span>
+          <h3 data-i18n="trust.pay">Удобная оплата</h3>
+          <p data-i18n="trust.payDetail">Картой, наличными или по QR-коду</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Вопросы -->
+  <section class="section faq" id="faq" aria-labelledby="faq-title">
+    <div class="wrap faq-grid">
+      <div class="faq-head">
+        <h2 id="faq-title" data-i18n="faq.title">Частые вопросы</h2>
+        <p data-i18n="faq.more">Не нашли ответ? Напишите администратору в WhatsApp.</p>
+        <a class="btn btn-solid wa-link" href="https://wa.me/77765339626" target="_blank" rel="noopener" data-goal="click_whatsapp"><svg class="ic" aria-hidden="true"><use href="#message-circle"/></svg><span data-i18n="faq.cta">Написать в WhatsApp</span></a>
+      </div>
+      <div class="faq-list">
+        <details><summary data-i18n="faq.q1">Как записаться на приём?</summary><p data-i18n="faq.a1">Напишите в WhatsApp или позвоните: +7 776 533 96 26. Можно заполнить форму на сайте — откроется WhatsApp с готовым сообщением.</p></details>
+        <details><summary data-i18n="faq.q2">Принимаете детей?</summary><p data-i18n="faq.a2">Да. Для детей есть УЗИ, анализы, приём педиатра, ЛОРа, невролога, гастроэнтеролога, уролога и эндокринолога.</p></details>
+        <details><summary data-i18n="faq.q3">Можно сделать ФГДС или колоноскопию под седацией?</summary><p data-i18n="faq.a3">Да, в гастроцентре проводят ФГДС и колоноскопию, в том числе под седацией. Эндоскопия — от 20 000 ₸, точную цену назовёт администратор.</p></details>
+        <details><summary data-i18n="faq.q4">Как подготовиться к исследованию?</summary><p data-i18n="faq.a4">Подготовка зависит от исследования. Администратор пришлёт памятку после записи; если остались вопросы, спросите в WhatsApp.</p></details>
+        <details><summary data-i18n="faq.q5">Как можно оплатить?</summary><p data-i18n="faq.a5">Картой, наличными или по QR-коду.</p></details>
+        <details><summary data-i18n="faq.q6">Где вы находитесь?</summary><p data-i18n="faq.a6">С 1 сентября 2026 года — Мангилик Ел, 36, в районе Триумфальной арки, рядом с ЦОН района Есиль.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section class="section contacts" id="contacts" aria-labelledby="contacts-title">
+    <div class="wrap contacts-grid">
+      <div class="contacts-info">
+        <h2 id="contacts-title" data-i18n="contacts.title">Как нас найти</h2>
+        <dl>
+          <div><dt><svg class="ic" aria-hidden="true"><use href="#map-pin"/></svg><span data-i18n="contacts.address">Мангилик Ел, 36, Астана</span></dt>
+            <dd data-i18n="contacts.landmark">Район Триумфальной арки, рядом с ЦОН района Есиль</dd>
+            <dd class="route-dd">
+              <a class="btn btn-line btn-route" href="https://go.2gis.com/wi74q6" target="_blank" rel="noopener" data-goal="open_route">
+                <svg class="ic" aria-hidden="true"><use href="#navigation"/></svg><span data-i18n="contacts.route">Построить маршрут в 2ГИС</span>
+              </a>
+            </dd></div>
+          <div><dt><svg class="ic" aria-hidden="true"><use href="#clock"/></svg><span data-i18n="contacts.hours">Приём с 8:00 до 20:00</span></dt></div>
+          <div><dt><svg class="ic" aria-hidden="true"><use href="#phone"/></svg><span data-i18n="contacts.phone">Телефон и WhatsApp</span></dt>
+            <dd><a href="tel:+77765339626" data-goal="click_phone">+7 776 533 96 26</a></dd></div>
+          <div><dt><svg class="ic" aria-hidden="true"><use href="#mail"/></svg><span data-i18n="contacts.email">Почта</span></dt>
+            <dd><a href="mailto:abk.clinic@mail.ru">abk.clinic@mail.ru</a></dd></div>
+        </dl>
+        <div class="contacts-actions">
+          <a class="btn btn-book" href="#booking" data-open-booking data-goal="cta_contacts">
+            <svg class="ic" aria-hidden="true"><use href="#calendar-check"/></svg><span data-i18n="cta.book">Записаться</span>
+          </a>
+        </div>
+      </div>
+      <div class="map" id="map" data-i18n-aria="contacts.mapTitle" aria-label="ABK Clinic на карте">
+        <div class="map-placeholder">
+          <svg class="ic" aria-hidden="true"><use href="#map-pin"/></svg>
+          <span data-i18n="contacts.address">Мангилик Ел, 36, Астана</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a class="footer-mark" href="#top" aria-label="ABK Clinic">
+        <span class="brand-logo footer-logo" data-logo hidden></span>
+        <span class="brand-text">
+          <span class="brand-name">ABK Clinic</span>
+          <span class="brand-tag" data-i18n="brand.tag">медицинский центр</span>
+        </span>
+      </a>
+      <p class="footer-about" data-i18n="footer.about">Медицинский центр в Астане: диагностика, гастроцентр и приём врачей 16 направлений.</p>
+      <div class="social">
+        <a href="https://www.instagram.com/abkclinic/" target="_blank" rel="noopener" data-goal="open_instagram"><svg class="ic" aria-hidden="true"><use href="#camera"/></svg>Instagram</a>
+        <a class="wa-link" href="https://wa.me/77765339626" target="_blank" rel="noopener" data-goal="click_whatsapp"><svg class="ic" aria-hidden="true"><use href="#message-circle"/></svg>WhatsApp</a>
+        <a href="https://go.2gis.com/wi74q6" target="_blank" rel="noopener" data-goal="open_route"><svg class="ic" aria-hidden="true"><use href="#map-pin"/></svg><span data-i18n="footer.gis">2ГИС</span></a>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <p data-i18n="footer.legal">ТОО «ABK CLINIC», БИН 241040020194</p>
+      <button type="button" class="link-btn" data-open="privacy" data-i18n="privacy.title">Политика конфиденциальности</button>
+    </div>
+    <p class="footer-warning" data-i18n="footer.warning">Имеются противопоказания. Необходима консультация специалиста.</p>
+    <p class="fine" data-i18n="footer.demo">Демо-версия: цены и тексты подготовлены по открытым данным клиники и требуют сверки.</p>
+  </div>
+</footer>
+
+<!-- Нижняя панель на телефоне: появляется, когда первый экран пролистан -->
+<nav class="mobile-bar" id="mobile-bar" data-i18n-aria="bar.label" aria-label="Быстрые действия">
+  <a class="bar-call" href="tel:+77765339626" data-goal="click_phone"><svg class="ic" aria-hidden="true"><use href="#phone"/></svg><span data-i18n="bar.call">Позвонить</span></a>
+  <a class="bar-book" href="#booking" data-open-booking data-goal="cta_bar"><svg class="ic" aria-hidden="true"><use href="#calendar-check"/></svg><span data-i18n="bar.book">Записаться</span></a>
+</nav>
+
+<!-- Круглая кнопка WhatsApp справа. Логотип WhatsApp по правилам бренда нельзя перекрашивать,
+     поэтому здесь иконка чата в цветах сайта и подпись «WhatsApp». -->
+<a class="wa-fab wa-link" id="wa-fab" href="https://wa.me/77765339626" target="_blank" rel="noopener" data-goal="click_whatsapp" data-i18n-aria="faq.cta" aria-label="Написать в WhatsApp">
+  <svg class="ic" aria-hidden="true"><use href="#message-circle"/></svg>
+  <span class="wa-fab-label">WhatsApp</span>
+</a>
+
+<dialog class="modal" id="privacy" aria-labelledby="privacy-title">
+  <h2 id="privacy-title" data-i18n="privacy.title">Политика конфиденциальности</h2>
+  <p data-i18n="privacy.text">Имя и телефон из формы записи нужны только для того, чтобы администратор связался с вами и записал на приём.</p>
+  <form method="dialog"><button class="btn btn-solid" data-i18n="privacy.close">Понятно</button></form>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
